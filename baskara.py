@@ -6,15 +6,19 @@ def baskara(a,b,c):
 
 	
 	if delta < 0:
+
+		print("\n\n=== Resultado ===\n")
 		print("Delta menor que 0")
+		
 		exit()
 
-	d = math.sqrt(delta)
+	delta = math.sqrt(delta)
 	
+	print("\n\n=== Resultado ===\n")
 
-	print(-b+d/(2*a))
+	print("X' = ",-b+delta/(2*a))
 
-	print(-b-d/(2*a))
+	print("X'' = ",-b-delta/(2*a))
 
 a = float(input("digite o valor de a:	"))
 b = float(input("digite o valor de b:	"))
