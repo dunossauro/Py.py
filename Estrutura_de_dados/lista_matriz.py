@@ -13,24 +13,36 @@ def inserir():
 
 	input("\n\nDigite enter para continuar")
 
-#FAZER
 def buscar():
 	if lista == []:
 		print("Lista vazia")
 
 	else:
 		cod = input("Insira o código: ")
+		pos = 0
+		for linha in lista:
+			for coluna in linha:
+				if coluna == cod:
+					print(linha)
+				pos += 1
 		
 	input("\n\nDigite enter para continuar")
 
 #FAZER
 def remover():
 
-	if cod == []:
+	if lista == []:
 		print("Lista vazia")
 
 	else:	
-
+		cod = input("Insira o código: ")
+		pos = 0
+		for linha in lista:
+			for coluna in linha:
+				if coluna == cod:
+					print(linha, "deletada")
+					del(lista[cod])
+				pos += 1
 	input("\n\nDigite enter para continuar")
 
 def imprimir():
