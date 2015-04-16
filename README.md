@@ -6,4 +6,3 @@
 ```
 Todo código é livre para ser compartilhado e usado para qualquer fim.
 ```
-#Oi
