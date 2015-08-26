@@ -8,9 +8,9 @@
   ```
   Usando:
     ```
-    Python 3
-    Flask
-    Sqlite 3
-    HTML
-    CSS
+    Python 3;
+    Flask;
+    Sqlite 3;
+    HTML e
+    CSS.
     ```
