@@ -1,4 +1,4 @@
-## Projeto de Linguistica aplicada a corpus
+## Projeto de Linguistica de Corpus
 
 Esse projeto tem como objetivo suprir as necessidas do WordSmithTools
 
