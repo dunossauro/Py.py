@@ -9,7 +9,7 @@ from tagger import tag
 def main():
     system("clear")
     print("\
-                 ####TNSWT####\n\
+                 ####TNWST####\n\
             \n\
             \n\
             1. Contador de palavras:\n\
