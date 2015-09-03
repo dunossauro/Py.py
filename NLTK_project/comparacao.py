@@ -1,3 +1,5 @@
+#V: 0.0.2
+
 def compare():
 	wl1 = input("Digite o nome da WordList 1: ")
 	wl2 = input("Digite o nome da WordList 2: ")
