@@ -1,0 +1,21 @@
+#V: 0.0.1
+
+from nltk import word_tokenize, pos_tag
+
+
+def tag():
+
+	#Entrada
+	nome_e = input("Digite o nome do arquivo que deseja fazer a tag: ")
+	nome_s = input("Digite o nome do arquivo que deseja gravar a saída: ")
+
+	#Abertura do aquivo a ser lido
+	arquivo_e = open(nome_e).read()
+
+	#Abertura do arquivo de saida
+	arquivo_s = open(nome_s,"w")
+
+	texto = word_tokenize(arquivo_e)
+
+	for palavra in pos_tag(texto):
+		arquivo_s.write(("%s\t\t%s\n")%(palavra[0],palavra[1]))
