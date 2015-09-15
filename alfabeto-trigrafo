@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+import string
+
+#combinações de 1 x números
+print([x for x in string.ascii.lowercase])
+print(len([x for x in string.ascii.lowercase]))
+
+#combinações de 2 x números
+print([(x,y) for x in string.ascii.lowercase for y in string.ascii.uppercase])
+print(len([(x,y) for x in string.ascii.lowercase for y in string.ascii.uppercase]))
+
+#combinações de 3 x números
+print([(x,y,w) for x in string.ascii.lowercase for y in string.ascii.uppercase for w in ascii.lowercase])
+print(len([(x,y,w) for x in string.ascii.lowercase for y in string.ascii.uppercase for w in ascii.lowercase]))
