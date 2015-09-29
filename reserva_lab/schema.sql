@@ -1,0 +1,31 @@
+CREATE TABLE usuarios(
+id INTEGER  PRIMARY KEY AUTOINCREMENT,
+nome VARCHAR(100) NOT NULL,
+login varchar(20) NOT NULL,
+senha varchar(100) NOT NULL
+);
+CREATE TABLE laboratorios(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+nome VARCHAR(100) NOT NULL,
+equipamentos VARCHAR(255) NOT NULL
+);
+CREATE TABLE professores(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+nome VARCHAR(100) NOT NULL
+);
+CREATE TABLE cursos(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+nome VARCHAR(100) NOT NULL,
+periodo VARCHAR(50) NOT NULL,
+tipo BOOLEAN
+);
+CREATE TABLE reserva(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+data VARCHAR(50) NOT NULL,
+laboratorio_id INTEGER,
+professor_id INTEGER,
+curso_id INTEGER,
+FOREIGN KEY (laboratorio_id) REFERENCES laboratorios(id),
+FOREIGN KEY (professor_id) REFERENCES professores(id),
+FOREIGN KEY (curso_id) REFERENCES cursos(id)
+ );
