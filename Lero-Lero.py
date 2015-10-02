@@ -145,11 +145,9 @@ print("\
 num = int(input("Digite quantas frases você precisa: "))
 
 for x in range(0, num):
-
-	rand = randint(0, 29)
 	
 	print(("%s%s%s%s")%
-		   (lista_1[rand],
-		   	lista_2[rand],
-			lista_3[rand],
-			lista_4[rand]))
+		   (lista_1[randint(0, 29)],
+		   	lista_2[randint(0, 29)],
+			lista_3[randint(0, 29)],
+			lista_4[randint(0, 29)]))
