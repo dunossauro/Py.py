@@ -3,8 +3,8 @@
 ###############################
 
 class No:
-    def __init__(self, carga=None, idade=0, proximo=None, anterior=None):
-        self.nome = carga
+    def __init__(self, nome=None, idade=0, proximo=None, anterior=None):
+        self.nome = nome
         self.idade = idade
         self.proximo = proximo
         self.anterior = anterior
