@@ -45,5 +45,14 @@ Ele oferece
       3.2 Também pode ser organizado alfabéticamente e por ocorrência
       3.3 Lista elos entre palavras chave
   `
+  
+###Para ver o programa em ação (Perdão pelo vacilo do video, ele é bem esquisito e não é meu)
+  
+  Ele dedicou um video para cara ferramenta, não obtive resposta sobre a autorização de colocar os videos aqui. Caso o autor se manifeste contra, removerei os links
+  
+  WordList: https://www.youtube.com/watch?v=7ybj-0-y5lI
+  KeyWords: https://www.youtube.com/watch?v=3p8bhwUKKCI
+  Concord:  https://www.youtube.com/watch?v=Q5kE3pc4Kys
+
 [1]:https://pt.wikipedia.org/wiki/Lingu%C3%ADstica_de_corpus
 [2]:http://www.lexically.net/wordsmith/
