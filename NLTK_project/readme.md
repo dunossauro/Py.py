@@ -20,7 +20,7 @@ Ele oferece
 
 3 Ferramentas:
 
-  Wordlist(1):
+  1.Wordlist:
   
   
       1.1 Lista palavras individuais (como um contador de palavras)
@@ -29,7 +29,7 @@ Ele oferece
       1.4 Dá porcentagem de ocorrência no texto
       1.5 Lista também palavras com o mesmo radical (Des/prefixo Graça/Radical)
 
-  Concord (2):
+  2. Concord:
       
       
       2.1 Concordância (Por exemplo, se buscarmos a palavra 'como': Ele/E2 come/E1 como/C um/D1 leão/D2), [busca as palavras da mesma frase]
@@ -38,7 +38,7 @@ Ele oferece
       2.4 Gráfico de distribuição de frequência (Um plot de de todas as vezes em que a palavra aparece em um texto)
       2.5 Existe a opção de ordenar cada (Esquerda ou direita) em relação ao centro.
 
-  Keyword (3):
+  3. Keyword:
   
   
       3.1 Compara duas contagens de palavras, após serem usadas no WordList (Contagem e porcentagem)
