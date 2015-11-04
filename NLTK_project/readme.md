@@ -30,8 +30,8 @@ Ele oferece
       1.5 Lista também palavras com o mesmo radical (Des/prefixo Graça/Radical)
 
   2. Concord:
-      
-      
+
+
       2.1 Concordância (Por exemplo, se buscarmos a palavra 'como': Ele/E2 come/E1 como/C um/D1 leão/D2), [busca as palavras da mesma frase]
       2.2 Lista de alocados (Lista os colocados da direita e esquerda, como no exemplo anterior)
       2.3 Lista de agrupamentos lexicais (Podemos escolher todas as frases em que 'Ele' está na posição E2 e 'como' no centro)
@@ -40,7 +40,7 @@ Ele oferece
 
   3. Keyword:
   
-  
+
       3.1 Compara duas contagens de palavras, após serem usadas no WordList (Contagem e porcentagem)
       3.2 Também pode ser organizado alfabéticamente e por ocorrência
       3.3 Lista elos entre palavras chave
