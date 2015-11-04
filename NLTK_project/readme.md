@@ -14,7 +14,7 @@ L: GPL 3
 
 #Comentários a comunidade da Python Brasil
 
-Existe um programa que lida com linguistica de corpus, na verdade oferece algumas ferramentas importantes para os linguistas de corpus. Se chama WordSmithTools[1]. 
+Existe um programa que lida com linguistica de corpus[1], na verdade oferece algumas ferramentas importantes para os linguistas de corpus. Se chama WordSmithTools[2]. 
 
 Ele oferece
 
@@ -45,4 +45,5 @@ Ele oferece
       3.2 Também pode ser organizado alfabéticamente e por ocorrência
       3.3 Lista elos entre palavras chave
 
-[1]:http://www.lexically.net/wordsmith/
+[1]:https://pt.wikipedia.org/wiki/Lingu%C3%ADstica_de_corpus
+[2]:http://www.lexically.net/wordsmith/
