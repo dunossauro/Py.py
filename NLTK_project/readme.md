@@ -21,11 +21,13 @@ Ele oferece
 3 Ferramentas:
 
   #### Wordlist(1):
-    1.1 Lista palavras individuais (como um contador de palavras)
-    1.2 List de multipalavras (É um contador de ocorrências de palavras específicas)
-    1.3 Oferece suporte a ordenar por ordem alfabética ou por ordem de frequência
-    1.4 Dá porcentagem de ocorrência no texto
-    1.5 Lista também palavras com o mesmo radical (Des/prefixo Graça/Radical)
+  
+  
+      1.1 Lista palavras individuais (como um contador de palavras)
+      1.2 List de multipalavras (É um contador de ocorrências de palavras específicas)
+      1.3 Oferece suporte a ordenar por ordem alfabética ou por ordem de frequência
+      1.4 Dá porcentagem de ocorrência no texto
+      1.5 Lista também palavras com o mesmo radical (Des/prefixo Graça/Radical)
 
   #### Concord (2):
       
@@ -36,7 +38,7 @@ Ele oferece
       2.4 Gráfico de distribuição de frequência (Um plot de de todas as vezes em que a palavra aparece em um texto)
       2.5 Existe a opção de ordenar cada (Esquerda ou direita) em relação ao centro.
 
-  #### Keyword (3)
+  #### Keyword (3):
   
   
       3.1 Compara duas contagens de palavras, após serem usadas no WordList (Contagem e porcentagem)
