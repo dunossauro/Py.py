@@ -1,6 +1,5 @@
-#testes para evolução de um gráfico
-
-import matplotlib.pyplot as p
+import csv
+#import matplotlib.pyplot as p
 
 #Criar uma lista com os meses respetivos para os periodos (1971-200)
 meses = list(range(1,13))
@@ -73,7 +72,7 @@ Setubal3 = [-5.1, -4.6, -2.5, -0.7, 3, 5.4, 7.9, 8.5, 6.8, 2, -2.4, -4.1]
 Vila_Real3 = [-6.5, -6.3, -3.6, -2, 0, 4, 7.5, 6.2, 2.4, -0.8, -3.4, -5]
 Viana_do_Castelo3 = [-3.9, -2.9, -1.1, -0.6, 0.8, 4.7, 8.7, 8, 3.8, 2.4, -1.9, -4]
 Viseu3 = [-6.6, -7.3, -5.4, -3.8, -0.5, 2, 0.6, 6, 2, -2.8, -3.6, -5]
-
+"""
 #Fundo
 fig = p.figure()
 rect = fig.patch
@@ -98,3 +97,23 @@ ax2.plot(meses,Aveiro3,'c', linewidth=4.0, linestyle='-')
 ax2.set_title("Aveiro")
 
 p.show()
+"""
+#Função que concatena todos os valores em tuplas de uma lista
+def cria_lista(lista1,lista2,lista3):
+    return [(lista1[x],lista2[x],lista3[x]) for x in range(0,12)]
+
+#Função que transfere a lista concatenada para csv
+def transfere_csv(lista, nome, tmim="tmim", tmed="tmed", tmax="tmax"):
+    arquivo = open('bg.csv', 'w')
+    writer = csv.writer(arquivo)
+    identificacao = (tmim,tmed,tmax)
+    writer.writerow((nome,""))
+    writer.writerow(identificacao)
+    for x in lista:
+        writer.writerow(x)
+
+    arquivo.close()
+
+#Chamada das funções
+Vila_Real = cria_lista(Vila_Real1, Vila_Real2, Vila_Real3)
+transfere_csv(Vila_Real, "Vila Real")
