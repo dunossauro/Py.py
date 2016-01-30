@@ -19,12 +19,15 @@ o valor 5 foi atribuído a variável num
 Caso exista a necessidade de saber qual tipo de dado esta sendo manipulado, pode-se usar a função `type(tipo_de_dado)`
 
 por exemplo:
-      >>> type(5)
-      int
-      >>> type(5.0)
-      float
-      >>> type(5 + 1j)
-      complex
+
+                  >>> type(5)
+                  int
+                  >>> type(5.0)
+                  float
+                  >>> type(5 + 1j)
+                  complex
+            
+
 ### Numeros inteiros
 
 | Tipo | Chamada | Resultado |
