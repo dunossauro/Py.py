@@ -68,8 +68,8 @@ por exemplo:
 
 | Operador | Função | Exemplo | Resultado |
 |--------------|--------------|--------------|--------------|
-| + | Soma de dois textos | "Python" + "Python" | PythonPython |  
-| * | Multiplicação entre um número e um texto | 2 * "Python" | PyhtonPython |
+| + | Soma de dois textos | "Python" + "python" | Pythonpython |  
+| * | Multiplicação entre um número e um texto | 2 * "Python" | PythonPython |
 
 #### Operações com binários
 
