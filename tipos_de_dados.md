@@ -28,7 +28,7 @@ por exemplo:
 ### Numeros inteiros
 
 | Tipo | Chamada | Resultado |
-| - | - | - |
+|--------------|--------------|--------------|
 | Base 10 | 11 | 11 |
 | Binário | b011 | 3|
 | Octal | 0o11 | 9 |
@@ -37,7 +37,7 @@ por exemplo:
 #### Conversão de números
 
 | Função | descrição| Resultado |
-| - | - | - |
+|--------------|--------------|--------------|
 | bin(11) | Converte 11 para binário | 0b1011 |
 | hex(11) | Converte 11 para hexa | 0xb|
 | oct(11) | Converte 11 para ocatal | 0o13 |
@@ -50,7 +50,7 @@ por exemplo:
 #### Operações aritiméticas com números
 
 | Operador | Descrição | Exemplo | Resultado |
-| - | - | - | - |
+|--------------|--------------|--------------|--------------|
 | + | soma de dois valores| 5 + 3 | 8 |
 | + | Atribui valor posítivo a um número |+5 | 5 |
 | - | subtração de dois valores | 5 - 3 | 2 |
@@ -64,7 +64,7 @@ por exemplo:
 #### Operações aritiméticas com texto
 
 | Operador | Função | Exemplo | Resultado |
-| - | - | - | - |
+|--------------|--------------|--------------|--------------|
 | + | Soma de dois textos | "Python" + "Python" | PythonPython |  
 | * | Multiplicação entre um número e um texto | 2 * "Python" | PyhtonPython |
 
@@ -73,15 +73,26 @@ por exemplo:
 Vamos usar a função bin, para obter os resultados sempre em binário.
 
 por exemplo: `bin(0b001 ^ 0b100) #'0b101'`
-      
-      
+
+
 | Operador | Função | Exemplo | Resultado |
-| - | - | - | - |
-| >> | | | |
-| << | | | |
-| and | | | |
-| or | | | |
-| ^ | | | | |
+|--------------|--------------|--------------|--------------|
+| >> | Deslocar bits a direita| bin(0b100 >> 2) | 0b1 |
+| << | Deslocar bits a esquerda| bin(0b100 << 2)| 0b10000 |
+| and | Operador lógico 'E'| bin(0b100 and 0b010) | 0b10 |
+| or | Operador lógico 'OU'| bin(0b100 or 0b010) | 0b100 |
+| ^ | Operador lógico 'XOR'| bin(0b100 ^ 0b010)| 0b110|
+
+#### Operadores de comparação
+
+| Operador | Função | Exemplo | Resultado |
+|--------------|--------------|--------------|--------------|
+| > | Operador 'maior que' | 4 > 3 | True|
+| >= | Operador 'maior igual' | 4 >= 3 | True |
+| < | Operador 'menor que' | 4 < 3 | False |
+| <= | Operador 'menor igual' | 4 <= 3| False |
+| == | Operador de igualdade | 4 == 3| False|
+| != | Operador de diferença | 4 != 3| True |
 
 ### Bibliografia
 - Borges, E. Luiz - Python para desenvolvedores
