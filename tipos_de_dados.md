@@ -97,6 +97,123 @@ por exemplo: `bin(0b001 ^ 0b100) #'0b101'`
 | == | Operador de igualdade | 4 == 3| False|
 | != | Operador de diferença | 4 != 3| True |
 
+
+# Listas em python3
+
+## Declaração de listas
+
+Para declarar uma lista, podemos usar a função 'list()' de qualquer iterável.
+
+por exemplo:
+
+      >> lista = list("eduardo")
+      >>print(lista)
+      ['e','d','u','a','r','d','o']
+
+
+## Métodos de uma lista (Tabela para preguiçosos)
+
+| Método | Função |
+|----------|----------|
+| append | Insere um elemento no final da lista |
+| copy | Faz um cópia da lista |
+| count | Conta quantas vezes um elemento está presente na lista |
+| extend | Faz a união entre duas listas |
+| index | Retorna a primeira posição de um elemento |
+| insert | insere um elemento na lista |
+| pop | Remove o ultimo elemento da lista e printa na tela |
+| remove | Remove um elemento da lista |
+| reverse | Inverte a lista, sem a atribuição a outra variável |
+| sort | Organiza a lista em ordem alfabética |
+
+
+### Exemplos
+
+> Para todos os exemplos usaremos uma lista decalara da segunte maneira: lista = [1,2,3,4]
+
+#### append
+O método append pode ser usado para inserir um elemento, independente de seu tipo, no final de uma lista
+
+            >> lista.append('x')
+            >> print(lista)
+            [1,2,3,4, 'x']
+
+#### copy
+O método copy faz um copia integral de uma lista, por exemplo:
+
+            >> lista2 = lista.copy()
+            >> print(lista2)
+            [1,2,3,4,5]
+
+Vale lembrar que usando o slice também conseguiriamos uma cópia parecida
+
+            >> lista2 = lista[:]
+            >> print(lista2)
+            [1,2,3,4,5]
+
+#### count
+O método count conta quantos elementos iguais existem dentro de uma lista
+
+            >> lista.count(3)
+            1
+
+#### extend
+O método extend concatena os elementos de um lista a lista que envocou o método, por exemplo:
+
+            >> lista = [0,0,0]
+            >> lista_2 = [1,1,1]
+            >> lista.extend(lista_b)
+            >> print(lista)
+            [0,0,0,1,1,1]
+
+#### index
+O método index retorna a primeira aparição de um elemento na lista, por exemplo:
+
+            >> lista = [1,0,0]
+            >> lista.index(0)
+            1
+
+#### insert
+O método index insere um elemento, em alguma posição, na lista, por exemplo:
+
+           >> lista.insert(1,'a')
+           >> print(lista)
+           [1,'a',2,3,4]
+
+#### pop
+O método pop, trabalha como a estrutura de pilha (ou FIFO), ou seja, ele remove a ultima posição da lista e printa na tela.
+
+            >> lista.pop()
+            4
+
+#### remove
+O método remove, remove da lista o primeiro elemento passado como argumento. Ou seja, trabalha de maneira similar ao index, só que na deleção de elementos
+
+            >> lista = list("baba")
+            >> lista.remove('b')
+            >> print(lista)
+            ['a', 'b', 'a']
+
+#### reverse e sort
+O método reverse, inverte a lista. Mas sem a necessidade de atribuição a outra lista
+
+            >> lista.reverse()
+            >> print(lista)
+            [4,3,2,1]
+
+Já o método sort, ordena a lista em ordem alfabética, vamos usar a lista gerada com o reverse como exemplo.
+
+            >> lista.sort()
+            >> print(lista)
+            [1,2,3,4]
+
+> Obs: o sort usa a tabela ASCII como referência, o que pode fazer os caracteres acentuados não entrarem na ordem correta.
+
+## Compreensão de listas
+
+
+## matrizes com listas
+
 ### Bibliografia
 - Borges, E. Luiz - Python para desenvolvedores
 - Ramalho, Luciano - Python Fluente
