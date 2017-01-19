@@ -15,7 +15,7 @@ mail_dict = {'subject': 'ASSUNTO',
              'msg': 'Teste'}
 
 
-def run_task(mails: list, mail_dict: dict) -> None:
+def run_task(mails: list, mail_dict: dict, time_sec: int = 10) -> None:
     while True:
         for mail in mails:
             msg = MIMEMultipart('alternative')
@@ -35,7 +35,7 @@ def run_task(mails: list, mail_dict: dict) -> None:
 
             mail.starttls()
 
-            mail.login(mail_dict['from'], "eduzinh0oo")
+            mail.login(mail_dict['from'], "senha")
             mail.sendmail(me, you, msg.as_string())
             mail.quit()
         sleep(10)
