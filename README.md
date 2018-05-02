@@ -1,7 +1,6 @@
-#Py.py
+# Py.py
 
-#### Only Python 3
+Repositório de coisas que deveriam ter virado gists, mas estão acumulados aqui por algum motivo desconhecido.
 
-###Programas do dia-a-dia que pode ser úteis para qualquer fim.
 
->Todo código é livre para ser compartilhado e usado para qualquer fim.
+> Todo código aqui é livre para ser usado para qualquer fim.
