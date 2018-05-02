@@ -1,8 +1,4 @@
-"""
-
-Stream to functions
-
-"""
+"""Stream to functions."""
 from os import listdir
 
 

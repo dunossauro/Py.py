@@ -8,7 +8,6 @@ import sched
 import logging
 from time import time, ctime
 from datetime import datetime, timedelta
-from itertools import count
 
 # Configurações básicas do logging
 logging.basicConfig(filename='sched.txt',
@@ -48,6 +47,7 @@ def saytime():
     """
     log.info(ctime())
     one_minute_taks(saytime)
+
 
 one_minute_taks(saytime)
 

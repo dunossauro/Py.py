@@ -40,4 +40,5 @@ def run_task(mails: list, mail_dict: dict, time_sec: int = 10) -> None:
             mail.quit()
         sleep(10)
 
+
 run_task(['teste@gmail.com', 'teste@gmail.com'], mail_dict)

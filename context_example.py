@@ -11,6 +11,7 @@ def cd(path):
     finally:
         chdir(prev_cwd)
 
+
 print(getcwd(), listdir()[0])
 with cd('..'):
     print(getcwd(), listdir()[0])
